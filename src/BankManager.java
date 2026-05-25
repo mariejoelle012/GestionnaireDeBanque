@@ -7,5 +7,11 @@ public class BankManager {
         checking.balance=  500000.00;
         checking.limit= 1000000.00;
 
+        //instance de SavingsAccount
+        SavingsAccount savings = new SavingsAccount();
+        savings.account= "SVG001";
+        savings.balance=  300000.00;
+
+
     }
 }
