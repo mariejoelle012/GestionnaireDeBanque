@@ -15,25 +15,24 @@ public class BankManager {
         //instance de COD
         COD cod = new COD();
         cod.account= "COD001";
-        cod.balance=  25000000.00;
+        cod.balance=  5000000.00;
 
         //affichage des valeurs
+        // CheckingAccount
         System.out.println("***** CheckingAccount *****");
         System.out.println("compte : "+ checking.account);
         System.out.println("solde : "+ checking.balance);
         System.out.println("limite : "+ checking.limit);
 
+        // SavingsAccount
         System.out.println("\n***** SavingsAccount *****");
         System.out.println("compte : "+ savings.account);
         System.out.println("solde : "+ savings.balance);
 
+        //COD
         System.out.println("\n***** COD *****");
         System.out.println("compte : "+ cod.account);
         System.out.println("solde : "+ cod.balance);
-
-
-
-
 
     }
 }
