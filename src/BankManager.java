@@ -12,6 +12,11 @@ public class BankManager {
         savings.account= "SVG001";
         savings.balance=  300000.00;
 
+        //instance de COD
+        COD cod = new COD();
+        cod.account= "COD001";
+        cod.balance=  25000000.00;
+
 
     }
 }
