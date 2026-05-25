@@ -17,6 +17,23 @@ public class BankManager {
         cod.account= "COD001";
         cod.balance=  25000000.00;
 
+        //affichage des valeurs
+        System.out.println("***** CheckingAccount *****");
+        System.out.println("compte : "+ checking.account);
+        System.out.println("solde : "+ checking.balance);
+        System.out.println("limite : "+ checking.limit);
+
+        System.out.println("\n***** SavingsAccount *****");
+        System.out.println("compte : "+ savings.account);
+        System.out.println("solde : "+ savings.balance);
+
+        System.out.println("\n***** COD *****");
+        System.out.println("compte : "+ cod.account);
+        System.out.println("solde : "+ cod.balance);
+
+
+
+
 
     }
 }
